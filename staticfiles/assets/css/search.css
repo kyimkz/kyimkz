@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lancelot&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&family=Lancelot&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+:root {
+  --primary-color: #222e37; /* Define a root variable for primary color */
+  --primary-font: "League Spartan", sans-serif;
+  --background-header-navbar: #ffffff;
+  --hover-color: rgb(211, 211, 211);
+}
+
+
+*{
+  font-family: var(--primary-font);
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  transition: .2s linear;
+}
+
+html{
+  font-size: 62.5%;
+}
+.sss {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    justify-content: center;
+    align-items: center;
+}
+.searched {
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+.h1 {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+p {
+    font-size: 2rem;
+}
+h1 {
+    font-size: 4rem;
+    margin-top: 20px;
+}
+
+.gen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    font-family: "Bona Nova", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .imgpic {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    padding: 15px;
+  }
+  .cat {
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    text-decoration-color: #1e201f;
+  }
+  .h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding-top: 20px;
+    font-size: 2vw;
+    font-weight: 300;
+  }
+  .p_text {
+    font-size: 1.9rem;
+    font-family: "Montserrat", serif;
+    font-weight: 400;
+    color: var(--primary-color);
+  }
+  .p2_text {
+    font-size: 2rem;
+    font-family: "Bodoni Moda", serif;
+    font-weight: 400;
+    color: var(--primary-color);
+  }
+  .p2_text:hover {
+    color: rgb(90, 18, 18);
+  }
+  
+  h1 {
+    font-family: "Bodoni Moda", serif;
+    margin: 20px;
+    color: var(--primary-color);
+  }
+  .text {
+    text-decoration: none;
+    color: #1e201f;
+  }
+  

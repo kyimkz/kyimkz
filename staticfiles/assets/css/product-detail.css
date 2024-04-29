@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lancelot&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&family=Lancelot&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+:root {
+  --primary-color: #222e37; /* Define a root variable for primary color */
+  --primary-font: "League Spartan", sans-serif;
+  --background-header-navbar: #ffffff;
+  --hover-color: rgb(211, 211, 211);
+}
+
+
+*{
+  font-family: var(--primary-font);
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  transition: .2s linear;
+}
+
+html{
+  font-size: 62.5%;
+}
+.product-image-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: "Bona Nova", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 70px;
+  }
+.description {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.imgpic {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+.p_text {
+  font-size: 1.9rem;
+  font-family: "Montserrat", serif;
+  font-weight: 400;
+  color: var(--primary-color);
+  padding: 7px;
+}
+.p2_text {
+  font-size: 2.5rem;
+  font-family: "Bodoni Moda", serif;
+  font-weight: 800;
+  color: var(--primary-color);
+  padding: 7px;
+}
+.p3_text {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--primary-color);
+  padding: 7px;
+  list-style: none;
+}
